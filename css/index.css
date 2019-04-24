@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: rale;
+}
+
+
+
+
+@font-face{
+    font-family: rale;
+    src: url(../fuentes/Raleway-Regular.ttf)
+}
