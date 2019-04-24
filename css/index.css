@@ -1,42 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: rale;
 }
 
-header{
+header {
     width: 100%;
     background: rgba(0, 0, 0, .8);
     height: 70px;
     position: fixed;
     z-index: 10;
 }
-.ancho{
+
+.ancho {
     width: 80%;
     height: 70px;
     /* background: red; */
     margin: auto;
 }
-.logo{
+
+.logo {
     width: 30%;
     height: 70px;
     /* background: blue; */
     float: left;
     padding-top: 10px;
 }
-.logo p a{
+
+.logo p a {
     color: #fff;
     font-size: 40px;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 1px;
-
-    
 }
-nav{
+
+nav {
     width: 70%;
     height: 70px;
     /* background: olive; */
@@ -44,11 +47,12 @@ nav{
     text-align: right;
     padding-top: 24px;
 }
-nav ul li{
-    display: inline;
 
+nav ul li {
+    display: inline;
 }
-nav ul li a{
+
+nav ul li a {
     color: #fff;
     font-size: 13px;
     text-decoration: none;
@@ -58,57 +62,51 @@ nav ul li a{
     letter-spacing: 1px;
     border-bottom: 2px solid transparent;
     transition: 0.6s;
-
-
-
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #44C6DA;
-    border-bottom: 2px solid #44DAAE ;
+    border-bottom: 2px solid #44DAAE;
     transition: 0.6s;
 }
-#fondo1{
+
+#fondo1 {
     width: 100%;
-    height: 500px;
-    background: linear-gradient(to bottom,
-    rgba(211, 135, 20, .6),
-    rgba(29, 241, 171, .6),
-    rgba(7, 109, 150, .45),
-    rgba(255, 0, 255, .55),
-    rgba(128, 0, 128, .100)
-    ),url(../img/fondo1.jpg);
+    height: 866px;
+    background: linear-gradient(to bottom, rgba(211, 135, 20, .6), rgba(29, 241, 171, .6), rgba(7, 109, 150, .45), rgba(255, 0, 255, .55), rgba(128, 0, 128, .100)), url(../img/fondo1.jpg);
     /* background-repeat: no-repeat;  */
     /* background-attachment: contain; */
     background-attachment: fixed;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
+}
 
-} 
-.ancholetras{
-    top: 200px;
+.ancholetras {
+    top: 350px;
     position: absolute;
     width: 100%;
     /* background: rgba(0, 0, 0, .8); */
     text-align: center;
     z-index: 1;
 }
-.texto{
+
+.texto {
     width: 80%;
     margin: auto;
 }
-.texto h1{
+
+.texto h1 {
     color: #fff;
     font-size: 80px;
 }
-.texto h2{
+
+.texto h2 {
     color: #fff;
     font-size: 40px;
     padding-top: 50px;
 }
 
-
-
-@font-face{
+@font-face {
     font-family: rale;
     src: url(../fuentes/Raleway-Regular.ttf)
 }
